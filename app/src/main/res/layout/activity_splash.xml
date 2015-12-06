@@ -12,7 +12,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-
+            android:background="@drawable/background"
             android:scaleType="centerCrop" />
 
         <View
@@ -31,18 +31,20 @@
                 android:layout_width="128dp"
                 android:layout_height="128dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/abc_btn_check_material" />
+                android:src="@drawable/app_icon" />
 
             <TextView
                 android:id="@+id/company_name"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Company Name"
+                android:text="Super \n Fashion Feed"
                 android:textColor="@color/whiteTextDark"
                 android:textSize="36sp"
                 android:textStyle="bold"
-                android:visibility="invisible" />
+                 />
 
             <TextView
                 android:id="@+id/tag_line"

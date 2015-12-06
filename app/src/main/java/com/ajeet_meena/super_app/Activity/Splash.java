@@ -50,14 +50,6 @@ public class Splash extends AppCompatActivity {
 
     }
 
-    private void initAnim() {
-        textViewCompany.setVisibility(View.VISIBLE);
-        textViewTagLine.setVisibility(View.VISIBLE);
-        textViewCompany.startAnimation(AnimationUtils.loadAnimation(this, R.anim.abc_fade_in));
-        textViewTagLine.startAnimation(AnimationUtils.loadAnimation(this, R.anim.abc_slide_in_bottom));
-
-    }
-
     private void initViews() {
         textViewCompany = (TextView) findViewById(R.id.company_name);
         textViewTagLine = (TextView) findViewById(R.id.tag_line);
