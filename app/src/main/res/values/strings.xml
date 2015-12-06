@@ -9,4 +9,10 @@
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="explore">Explore</string>
+    <string name="spotlight">Spotlights</string>
+    <string name="picks">Picks</string>
+    <string name="logout">Logout</string>
+    <string name="openDrawer">Drawer opened</string>
+    <string name="closeDrawer">Close drawer</string>
 </resources>

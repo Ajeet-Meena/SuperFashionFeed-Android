@@ -19,7 +19,7 @@
             android:screenOrientation="nosensor"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity
-            android:name=".Activity.SuperFeedActivity"
+            android:name=".Activity.SuperActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

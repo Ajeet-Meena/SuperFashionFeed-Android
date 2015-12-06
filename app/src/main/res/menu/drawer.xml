@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/explore"
+            android:checked="false"
+            android:title="@string/explore"/>
+
+        <item
+            android:id="@+id/spotlights"
+            android:checked="false"
+            android:title="@string/spotlight"/>
+
+        <item
+            android:id="@+id/picks"
+            android:checked="false"
+            android:title="@string/picks"/>
+        <item
+            android:id="@+id/logout"
+            android:checked="false"
+            android:title="@string/logout"/>
+
+    </group>
+</menu>

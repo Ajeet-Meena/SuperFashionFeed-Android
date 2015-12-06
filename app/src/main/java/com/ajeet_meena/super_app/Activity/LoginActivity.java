@@ -123,7 +123,7 @@ public class LoginActivity extends Activity {
                                     GraphResponse response)
                             {
                                 pDialog.dismiss();
-                                startActivity(new Intent(getApplicationContext(),SuperFeedActivity.class));
+                                startActivity(new Intent(getApplicationContext(),SuperActivity.class));
 
 
 

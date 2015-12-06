@@ -5,7 +5,6 @@ import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.AnimationUtils;
@@ -71,7 +70,7 @@ public class Splash extends AppCompatActivity {
         @Override
         protected void onPostExecute(Boolean result) {
             if( result ) {
-                startActivity(new Intent(Splash.this, SuperFeedActivity.class));
+                startActivity(new Intent(Splash.this, SuperActivity.class));
             } else {
                 startActivity(new Intent(Splash.this, LoginActivity.class));
             }
